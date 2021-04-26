@@ -1,0 +1,134 @@
+Deadlock Recovery Simulation
+
+Philosopher 1 (2, 1) is thinking... | TIME: 19:18:13.857
+Philosopher 0 (1, 0) is thinking... | TIME: 19:18:13.857
+Philosopher 3 (4, 3) is thinking... | TIME: 19:18:13.857
+Philosopher 4 (0, 4) is thinking... | TIME: 19:18:13.857
+Philosopher 2 (3, 2, 0) is thinking... | TIME: 19:18:13.857
+Philosopher 1 (2, 1) is hungry... | TIME: 19:18:13.906
+Philosopher 1 (2, 1) picked up Chopstick 2 | TIME: 19:18:13.907
+Philosopher 1 (2, 1) picked up Chopstick 1 | TIME: 19:18:14.207
+Philosopher 1 (2, 1) is eating ... | TIME: 19:18:14.207
+Philosopher 2 (3, 2, 0) is hungry... | TIME: 19:18:14.519
+Philosopher 2 (3, 2, 0) picked up Chopstick 3 | TIME: 19:18:14.521
+Philosopher 2 (3, 2, 0) picked up Chopstick 0 | TIME: 19:18:14.521
+Philosopher 3 (4, 3) is hungry... | TIME: 19:18:14.942
+Philosopher 3 (4, 3) picked up Chopstick 4 | TIME: 19:18:14.943
+Philosopher 4 (0, 4) is hungry... | TIME: 19:18:15.324
+Philosopher 0 (1, 0) is hungry... | TIME: 19:18:15.714
+Philosopher 1 (2, 1) finished eating... | TIME: 19:18:15.919
+Philosopher 1 (2, 1) dropped Chopstick 2 | TIME: 19:18:15.92
+Philosopher 1 (2, 1) dropped Chopstick 1 | TIME: 19:18:15.92
+Philosopher 0 (1, 0) picked up Chopstick 1 | TIME: 19:18:16.001
+Philosopher 2 (3, 2, 0) picked up Chopstick 2 | TIME: 19:18:16.209
+Philosopher 2 (3, 2, 0) is eating ... | TIME: 19:18:16.209
+Philosopher 2 (3, 2, 0) finished eating | TIME: 19:18:17.42
+Philosopher 2 (3, 2, 0) dropped Chopstick 3 | TIME: 19:18:17.421
+Philosopher 2 (3, 2, 0) dropped Chopstick 2 | TIME: 19:18:17.421
+Philosopher 2 (3, 2, 0) dropped Chopstick 0 | TIME: 19:18:17.422
+Philosopher 3 (4, 3) picked up Chopstick 3 | TIME: 19:18:17.743
+Philosopher 3 (4, 3) is eating ... | TIME: 19:18:17.744
+Philosopher 4 (0, 4) picked up Chopstick 0 | TIME: 19:18:17.758
+Philosopher 3 (4, 3) finished eating... | TIME: 19:18:19.664
+Philosopher 3 (4, 3) dropped Chopstick 4 | TIME: 19:18:19.665
+Philosopher 3 (4, 3) dropped Chopstick 3 | TIME: 19:18:19.665
+Philosopher 1 (2, 1) picked up Chopstick 2 | TIME: 19:18:19.695
+Philosopher 4 (0, 4) picked up Chopstick 4 | TIME: 19:18:19.832
+Philosopher 4 (0, 4) is eating ... | TIME: 19:18:19.832
+Philosopher 2 (3, 2, 0) picked up Chopstick 3 | TIME: 19:18:21.331
+Philosopher 4 (0, 4) finished eating... | TIME: 19:18:23.838
+Philosopher 4 (0, 4) dropped Chopstick 0 | TIME: 19:18:23.838
+Philosopher 4 (0, 4) dropped Chopstick 4 | TIME: 19:18:23.838
+Philosopher 2 (3, 2, 0) picked up Chopstick 0 | TIME: 19:18:23.957
+Philosopher 3 (4, 3) picked up Chopstick 4 | TIME: 19:18:24.369
+
+Philosopher 1 (2, 1)'s ********** DEADLOCK ********** | TIME: 19:18:27.32
+
+
+Philosopher 1 (2, 1)'s ********** DEADLOCK ********** | TIME: 19:18:27.53
+
+Philosopher 1 (2, 1) dropped Chopstick 2 | TIME: 19:18:31.325
+Philosopher 2 (3, 2, 0) picked up Chopstick 2 | TIME: 19:18:31.433
+Philosopher 2 (3, 2, 0) is eating ... | TIME: 19:18:31.433
+Philosopher 0 (1, 0) dropped Chopstick 1 | TIME: 19:18:34.326
+Philosopher 2 (3, 2, 0) finished eating | TIME: 19:18:35.658
+Philosopher 2 (3, 2, 0) dropped Chopstick 3 | TIME: 19:18:35.659
+Philosopher 2 (3, 2, 0) dropped Chopstick 2 | TIME: 19:18:35.659
+Philosopher 2 (3, 2, 0) dropped Chopstick 0 | TIME: 19:18:35.659
+Philosopher 4 (0, 4) picked up Chopstick 0 | TIME: 19:18:35.819
+Philosopher 3 (4, 3) picked up Chopstick 3 | TIME: 19:18:36.009
+Philosopher 3 (4, 3) is eating ... | TIME: 19:18:36.009
+Philosopher 4 (0, 4) dropped Chopstick 0 | TIME: 19:18:37.329
+Philosopher 3 (4, 3) finished eating... | TIME: 19:18:38.36
+Philosopher 3 (4, 3) dropped Chopstick 4 | TIME: 19:18:38.36
+Philosopher 3 (4, 3) dropped Chopstick 3 | TIME: 19:18:38.361
+Philosopher 4 (0, 4) is thinking... | TIME: 19:18:38.402
+Philosopher 2 (3, 2, 0) is thinking... | TIME: 19:18:39.16
+Philosopher 4 (0, 4) is hungry... | TIME: 19:18:39.823
+Philosopher 2 (3, 2, 0) is hungry... | TIME: 19:18:40.157
+Philosopher 2 (3, 2, 0) picked up Chopstick 3 | TIME: 19:18:40.158
+Philosopher 0 (1, 0) is thinking... | TIME: 19:18:40.334
+Philosopher 4 (0, 4) is thinking... | TIME: 19:18:40.532
+Philosopher 1 (2, 1) is thinking... | TIME: 19:18:40.547
+Philosopher 2 (3, 2, 0) picked up Chopstick 2 | TIME: 19:18:41.122
+Philosopher 2 (3, 2, 0) picked up Chopstick 0 | TIME: 19:18:41.122
+Philosopher 0 (1, 0) is hungry... | TIME: 19:18:41.33
+Philosopher 0 (1, 0) picked up Chopstick 1 | TIME: 19:18:41.331
+Philosopher 3 (4, 3) picked up Chopstick 4 | TIME: 19:18:41.567
+Philosopher 2 (3, 2, 0) is eating ... | TIME: 19:18:41.785
+Philosopher 4 (0, 4) is hungry... | TIME: 19:18:41.945
+Philosopher 1 (2, 1) is hungry... | TIME: 19:18:41.977
+Philosopher 2 (3, 2, 0) finished eating | TIME: 19:18:44.192
+Philosopher 2 (3, 2, 0) dropped Chopstick 3 | TIME: 19:18:44.192
+Philosopher 2 (3, 2, 0) dropped Chopstick 2 | TIME: 19:18:44.192
+Philosopher 2 (3, 2, 0) dropped Chopstick 0 | TIME: 19:18:44.192
+Philosopher 1 (2, 1) picked up Chopstick 2 | TIME: 19:18:44.224
+Philosopher 3 (4, 3) picked up Chopstick 3 | TIME: 19:18:44.285
+Philosopher 3 (4, 3) is eating ... | TIME: 19:18:44.285
+Philosopher 4 (0, 4) picked up Chopstick 0 | TIME: 19:18:44.388
+Philosopher 3 (4, 3) finished eating... | TIME: 19:18:45.635
+Philosopher 3 (4, 3) dropped Chopstick 4 | TIME: 19:18:45.636
+Philosopher 3 (4, 3) dropped Chopstick 3 | TIME: 19:18:45.636
+Philosopher 4 (0, 4) picked up Chopstick 4 | TIME: 19:18:45.857
+Philosopher 4 (0, 4) is eating ... | TIME: 19:18:45.857
+Philosopher 2 (3, 2, 0) picked up Chopstick 3 | TIME: 19:18:47.99
+Philosopher 4 (0, 4) finished eating... | TIME: 19:18:50.601
+Philosopher 4 (0, 4) dropped Chopstick 0 | TIME: 19:18:50.601
+Philosopher 4 (0, 4) dropped Chopstick 4 | TIME: 19:18:50.601
+Philosopher 3 (4, 3) picked up Chopstick 4 | TIME: 19:18:50.702
+Philosopher 2 (3, 2, 0) picked up Chopstick 0 | TIME: 19:18:50.713
+
+Philosopher 1 (2, 1)'s ********** DEADLOCK ********** | TIME: 19:18:53.631
+
+
+Philosopher 1 (2, 1)'s ********** DEADLOCK ********** | TIME: 19:18:54.279
+
+Philosopher 1 (2, 1) dropped Chopstick 2 | TIME: 19:18:57.635
+Philosopher 2 (3, 2, 0) picked up Chopstick 2 | TIME: 19:18:58.389
+Philosopher 2 (3, 2, 0) is eating ... | TIME: 19:18:58.389
+Philosopher 0 (1, 0) dropped Chopstick 1 | TIME: 19:19:00.639
+Philosopher 2 (3, 2, 0) finished eating | TIME: 19:19:02.844
+Philosopher 2 (3, 2, 0) dropped Chopstick 3 | TIME: 19:19:02.844
+Philosopher 2 (3, 2, 0) dropped Chopstick 2 | TIME: 19:19:02.844
+Philosopher 2 (3, 2, 0) dropped Chopstick 0 | TIME: 19:19:02.845
+Philosopher 3 (4, 3) picked up Chopstick 3 | TIME: 19:19:02.9
+Philosopher 3 (4, 3) is eating ... | TIME: 19:19:02.9
+Philosopher 4 (0, 4) picked up Chopstick 0 | TIME: 19:19:03.294
+Philosopher 4 (0, 4) dropped Chopstick 0 | TIME: 19:19:03.643
+Philosopher 2 (3, 2, 0) picked up Chopstick 2 | TIME: 19:19:06.219
+Philosopher 2 (3, 2, 0) picked up Chopstick 0 | TIME: 19:19:06.219
+Philosopher 1 (2, 1) picked up Chopstick 1 | TIME: 19:19:06.648
+Philosopher 3 (4, 3) finished eating... | TIME: 19:19:07.629
+Philosopher 3 (4, 3) dropped Chopstick 4 | TIME: 19:19:07.629
+Philosopher 3 (4, 3) dropped Chopstick 3 | TIME: 19:19:07.629
+Philosopher 4 (0, 4) picked up Chopstick 4 | TIME: 19:19:07.824
+Philosopher 2 (3, 2, 0) picked up Chopstick 3 | TIME: 19:19:08.205
+Philosopher 2 (3, 2, 0) is eating ... | TIME: 19:19:08.205
+Philosopher 2 (3, 2, 0) finished eating | TIME: 19:19:10.488
+Philosopher 2 (3, 2, 0) dropped Chopstick 3 | TIME: 19:19:10.488
+Philosopher 2 (3, 2, 0) dropped Chopstick 2 | TIME: 19:19:10.488
+Philosopher 2 (3, 2, 0) dropped Chopstick 0 | TIME: 19:19:10.488
+Philosopher 0 (1, 0) picked up Chopstick 0 | TIME: 19:19:10.52
+Philosopher 1 (2, 1) picked up Chopstick 2 | TIME: 19:19:10.547
+Philosopher 1 (2, 1) is eating ... | TIME: 19:19:10.547
+Philosopher 3 (4, 3) picked up Chopstick 3 | TIME: 19:19:11.441

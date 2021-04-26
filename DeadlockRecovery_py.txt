@@ -1,0 +1,181 @@
+Deadlock Recovery Simulation
+
+Philosopher 1 (2, 1) | is thinking | 19:42:21.364
+Philosopher 3 (4, 3) | is thinking | 19:42:21.364
+Philosopher 0 (1, 0) | is thinking | 19:42:21.364
+Philosopher 2 (3, 2, 0) | is thinking | 19:42:21.364
+Philosopher 4 (0, 4) | is thinking | 19:42:21.364
+Philosopher 3 (4, 3) | is hungry | 19:42:21.405
+Philosopher 3 (4, 3) | picked up | Chopstick 4 | 19:42:21.406
+Philosopher 4 (0, 4) | is hungry | 19:42:21.96
+Philosopher 4 (0, 4) | picked up | Chopstick 0 | 19:42:21.961
+Philosopher 4 (0, 4) | DEADLOCK | 19:42:22.141
+Philosopher 3 (4, 3) | picked up | Chopstick 3 | 19:42:22.211
+Philosopher 3 (4, 3) | is eating | 19:42:22.212
+Philosopher 1 (2, 1) | is hungry | 19:42:22.481
+Philosopher 1 (2, 1) | picked up | Chopstick 2 | 19:42:22.482
+Philosopher 2 (3, 2, 0) | is hungry | 19:42:22.661
+Philosopher 3 (4, 3) | finished eating | 19:42:22.92
+Philosopher 3 (4, 3) | dropped | Chopstick 4 | 19:42:22.921
+Philosopher 3 (4, 3) | dropped | Chopstick 3 | 19:42:22.923
+Philosopher 1 (2, 1) | picked up | Chopstick 1 | 19:42:23.098
+Philosopher 1 (2, 1) | is eating | 19:42:23.098
+Philosopher 0 (1, 0) | is hungry | 19:42:23.203
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 3 | 19:42:23.501
+Philosopher 1 (2, 1) | finished eating | 19:42:23.652
+Philosopher 1 (2, 1) | dropped | Chopstick 2 | 19:42:23.652
+Philosopher 1 (2, 1) | dropped | Chopstick 1 | 19:42:23.652
+Philosopher 0 (1, 0) | picked up | Chopstick 1 | 19:42:23.977
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 2 | 19:42:24.434
+Philosopher 3 (4, 3) | picked up | Chopstick 4 | 19:42:26.097
+Philosopher 4 (0, 4) | dropped | Chopstick 0 | 19:42:26.147
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 0 | 19:42:26.321
+Philosopher 4 (0, 4) | DEADLOCK | 19:42:27.11
+Philosopher 2 (3, 2, 0) | is eating | 19:42:27.287
+Philosopher 0 (1, 0) | dropped | Chopstick 1 | 19:42:29.15
+Philosopher 1 (2, 1) | picked up | Chopstick 1 | 19:42:29.213
+Philosopher 3 (4, 3) | dropped | Chopstick 4 | 19:42:32.152
+Philosopher 2 (3, 2, 0) | finished eating | 19:42:32.254
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 3 | 19:42:32.255
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 2 | 19:42:32.255
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 0 | 19:42:32.255
+Philosopher 0 (1, 0) | picked up | Chopstick 0 | 19:42:32.592
+Philosopher 1 (2, 1) | picked up | Chopstick 2 | 19:42:33.007
+Philosopher 1 (2, 1) | is eating | 19:42:33.008
+Philosopher 0 (1, 0) | dropped | Chopstick 0 | 19:42:34.118
+Philosopher 4 (0, 4) | is thinking | 19:42:35.156
+Philosopher 4 (0, 4) | is hungry | 19:42:35.516
+Philosopher 4 (0, 4) | picked up | Chopstick 0 | 19:42:35.517
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 3 | 19:42:35.862
+Philosopher 4 (0, 4) | picked up | Chopstick 4 | 19:42:36.14
+Philosopher 4 (0, 4) | is eating | 19:42:36.14
+Philosopher 4 (0, 4) | finished eating | 19:42:36.217
+Philosopher 4 (0, 4) | dropped | Chopstick 0 | 19:42:36.218
+Philosopher 4 (0, 4) | dropped | Chopstick 4 | 19:42:36.218
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 0 | 19:42:36.308
+Philosopher 1 (2, 1) | finished eating | 19:42:37.364
+Philosopher 1 (2, 1) | dropped | Chopstick 2 | 19:42:37.365
+Philosopher 1 (2, 1) | dropped | Chopstick 1 | 19:42:37.365
+Philosopher 0 (1, 0) | picked up | Chopstick 1 | 19:42:37.412
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 2 | 19:42:38.033
+Philosopher 2 (3, 2, 0) | is eating | 19:42:38.033
+Philosopher 4 (0, 4) | picked up | Chopstick 4 | 19:42:39.464
+Philosopher 2 (3, 2, 0) | finished eating | 19:42:41.702
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 3 | 19:42:41.702
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 2 | 19:42:41.703
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 0 | 19:42:41.703
+Philosopher 4 (0, 4) | picked up | Chopstick 0 | 19:42:41.713
+Philosopher 4 (0, 4) | is eating | 19:42:41.713
+Philosopher 3 (4, 3) | picked up | Chopstick 3 | 19:42:41.8
+Philosopher 4 (0, 4) | finished eating | 19:42:42.143
+Philosopher 4 (0, 4) | dropped | Chopstick 0 | 19:42:42.143
+Philosopher 4 (0, 4) | dropped | Chopstick 4 | 19:42:42.143
+Philosopher 1 (2, 1) | picked up | Chopstick 2 | 19:42:42.201
+Philosopher 3 (4, 3) | picked up | Chopstick 4 | 19:42:42.403
+Philosopher 3 (4, 3) | is eating | 19:42:42.404
+Philosopher 3 (4, 3) | finished eating | 19:42:42.56
+Philosopher 3 (4, 3) | dropped | Chopstick 4 | 19:42:42.56
+Philosopher 3 (4, 3) | dropped | Chopstick 3 | 19:42:42.56
+Philosopher 0 (1, 0) | picked up | Chopstick 0 | 19:42:42.597
+Philosopher 0 (1, 0) | is eating | 19:42:42.597
+Philosopher 4 (0, 4) | picked up | Chopstick 4 | 19:42:45.361
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 3 | 19:42:45.643
+Philosopher 0 (1, 0) | finished eating | 19:42:45.754
+Philosopher 0 (1, 0) | dropped | Chopstick 1 | 19:42:45.754
+Philosopher 0 (1, 0) | dropped | Chopstick 0 | 19:42:45.754
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 0 | 19:42:45.932
+Philosopher 1 (2, 1) | picked up | Chopstick 1 | 19:42:46.204
+Philosopher 1 (2, 1) | is eating | 19:42:46.204
+Philosopher 1 (2, 1) | finished eating | 19:42:51.034
+Philosopher 1 (2, 1) | dropped | Chopstick 2 | 19:42:51.035
+Philosopher 1 (2, 1) | dropped | Chopstick 1 | 19:42:51.035
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 2 | 19:42:51.049
+Philosopher 2 (3, 2, 0) | is eating | 19:42:51.049
+Philosopher 0 (1, 0) | picked up | Chopstick 1 | 19:42:51.347
+Philosopher 2 (3, 2, 0) | finished eating | 19:42:54.664
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 3 | 19:42:54.664
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 2 | 19:42:54.664
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 0 | 19:42:54.664
+Philosopher 1 (2, 1) | picked up | Chopstick 2 | 19:42:54.8
+Philosopher 0 (1, 0) | picked up | Chopstick 0 | 19:42:55.185
+Philosopher 0 (1, 0) | is eating | 19:42:55.186
+Philosopher 0 (1, 0) | finished eating | 19:42:55.249
+Philosopher 0 (1, 0) | dropped | Chopstick 1 | 19:42:55.25
+Philosopher 0 (1, 0) | dropped | Chopstick 0 | 19:42:55.25
+Philosopher 4 (0, 4) | picked up | Chopstick 0 | 19:42:55.395
+Philosopher 4 (0, 4) | is eating | 19:42:55.395
+Philosopher 3 (4, 3) | picked up | Chopstick 3 | 19:42:55.43
+Philosopher 1 (2, 1) | picked up | Chopstick 1 | 19:42:55.515
+Philosopher 1 (2, 1) | is eating | 19:42:55.516
+Philosopher 1 (2, 1) | finished eating | 19:42:55.893
+Philosopher 1 (2, 1) | dropped | Chopstick 2 | 19:42:55.893
+Philosopher 1 (2, 1) | dropped | Chopstick 1 | 19:42:55.893
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 2 | 19:42:58.1
+Philosopher 0 (1, 0) | picked up | Chopstick 1 | 19:42:58.446
+Philosopher 4 (0, 4) | finished eating | 19:42:59.127
+Philosopher 4 (0, 4) | dropped | Chopstick 0 | 19:42:59.127
+Philosopher 4 (0, 4) | dropped | Chopstick 4 | 19:42:59.127
+Philosopher 3 (4, 3) | picked up | Chopstick 4 | 19:42:59.308
+Philosopher 3 (4, 3) | is eating | 19:42:59.309
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 0 | 19:42:59.355
+Philosopher 3 (4, 3) | finished eating | 19:43:00.66
+Philosopher 3 (4, 3) | dropped | Chopstick 4 | 19:43:00.66
+Philosopher 3 (4, 3) | dropped | Chopstick 3 | 19:43:00.661
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 3 | 19:43:00.951
+Philosopher 2 (3, 2, 0) | is eating | 19:43:00.951
+Philosopher 4 (0, 4) | picked up | Chopstick 4 | 19:43:02.314
+Philosopher 2 (3, 2, 0) | finished eating | 19:43:04.815
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 3 | 19:43:04.816
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 2 | 19:43:04.816
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 0 | 19:43:04.816
+Philosopher 1 (2, 1) | picked up | Chopstick 2 | 19:43:04.91
+Philosopher 4 (0, 4) | picked up | Chopstick 0 | 19:43:04.947
+Philosopher 4 (0, 4) | is eating | 19:43:04.947
+Philosopher 3 (4, 3) | picked up | Chopstick 3 | 19:43:05.662
+Philosopher 4 (0, 4) | finished eating | 19:43:08.37
+Philosopher 4 (0, 4) | dropped | Chopstick 0 | 19:43:08.371
+Philosopher 4 (0, 4) | dropped | Chopstick 4 | 19:43:08.371
+Philosopher 3 (4, 3) | picked up | Chopstick 4 | 19:43:08.589
+Philosopher 3 (4, 3) | is eating | 19:43:08.59
+Philosopher 0 (1, 0) | picked up | Chopstick 0 | 19:43:09.075
+Philosopher 0 (1, 0) | is eating | 19:43:09.075
+Philosopher 3 (4, 3) | finished eating | 19:43:09.57
+Philosopher 3 (4, 3) | dropped | Chopstick 4 | 19:43:09.571
+Philosopher 3 (4, 3) | dropped | Chopstick 3 | 19:43:09.571
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 3 | 19:43:09.762
+Philosopher 0 (1, 0) | finished eating | 19:43:10.766
+Philosopher 0 (1, 0) | dropped | Chopstick 1 | 19:43:10.766
+Philosopher 0 (1, 0) | dropped | Chopstick 0 | 19:43:10.766
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 0 | 19:43:11.273
+Philosopher 1 (2, 1) | picked up | Chopstick 1 | 19:43:11.422
+Philosopher 1 (2, 1) | is eating | 19:43:11.423
+Philosopher 4 (0, 4) | picked up | Chopstick 4 | 19:43:11.685
+Philosopher 1 (2, 1) | finished eating | 19:43:12.791
+Philosopher 1 (2, 1) | dropped | Chopstick 2 | 19:43:12.792
+Philosopher 1 (2, 1) | dropped | Chopstick 1 | 19:43:12.792
+Philosopher 2 (3, 2, 0) | picked up | Chopstick 2 | 19:43:13.167
+Philosopher 2 (3, 2, 0) | is eating | 19:43:13.167
+Philosopher 0 (1, 0) | picked up | Chopstick 1 | 19:43:13.815
+Philosopher 2 (3, 2, 0) | finished eating | 19:43:14.53
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 3 | 19:43:14.53
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 2 | 19:43:14.531
+Philosopher 2 (3, 2, 0) | dropped | Chopstick 0 | 19:43:14.531
+Philosopher 3 (4, 3) | picked up | Chopstick 3 | 19:43:14.67
+Philosopher 0 (1, 0) | picked up | Chopstick 0 | 19:43:14.784
+Philosopher 0 (1, 0) | is eating | 19:43:14.784
+Philosopher 0 (1, 0) | finished eating | 19:43:15.463
+Philosopher 0 (1, 0) | dropped | Chopstick 1 | 19:43:15.463
+Philosopher 0 (1, 0) | dropped | Chopstick 0 | 19:43:15.464
+Philosopher 4 (0, 4) | picked up | Chopstick 0 | 19:43:15.777
+Philosopher 4 (0, 4) | is eating | 19:43:15.777
+Philosopher 1 (2, 1) | is thinking | 19:43:16.373
+Philosopher 1 (2, 1) | is hungry | 19:43:17.532
+Philosopher 1 (2, 1) | picked up | Chopstick 2 | 19:43:17.532
+Philosopher 1 (2, 1) | picked up | Chopstick 1 | 19:43:18.44
+Philosopher 1 (2, 1) | is eating | 19:43:18.44
+Philosopher 4 (0, 4) | finished eating | 19:43:19.084
+Philosopher 4 (0, 4) | dropped | Chopstick 0 | 19:43:19.084
+Philosopher 4 (0, 4) | dropped | Chopstick 4 | 19:43:19.084
+Philosopher 0 (1, 0) | picked up | Chopstick 0 | 19:43:19.151
+Philosopher 3 (4, 3) | picked up | Chopstick 4 | 19:43:19.412
+Philosopher 3 (4, 3) | is eating | 19:43:19.412
